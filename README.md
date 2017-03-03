@@ -4,7 +4,7 @@ A classic videogame website built using Django, Bootstrap and JSON.
 
 ## Website Link:
 
-127.0.0.1:8000/
+<a href="127.0.0.1:8000/">Quora profile link for Adam D'Angelo</a>
 
 ## Credits
 
