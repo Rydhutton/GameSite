@@ -9,6 +9,7 @@ A classic videogame website built using Django, Bootstrap and JSON.
 ## Credits
 
 Ryan Hutton
+
 Jasen Wright
 
 ## License
