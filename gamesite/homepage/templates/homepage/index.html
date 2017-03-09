@@ -9,11 +9,13 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+    <title>GameSite</title>
 
-    <link href="{% static 'homepage/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'homepage/css/bootstrap.css' %}" rel="stylesheet">
 
     <link href="{% static 'homepage/css/scrolling-nav.css' %}" rel="stylesheet">
+
+    <link href="{% static 'homepage/css/gamesite.css' %}" rel="stylesheet">
 
 </head>
 
@@ -28,7 +30,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Games</a>
+                <a class="navbar-brand page-scroll" href="#page-top">GameSite</a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -37,10 +39,10 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#pongbg">Pong</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#services">Services</a>
+                        <a class="page-scroll" href="#snakebg">Snake</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -50,34 +52,59 @@
         </div>
     </nav>
 
-    <section id="intro" class="intro-section">
+    <section id="gamesitebg" class="intro-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Scrolling Nav</h1>
-                    <p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>
-                    <a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>
+                    <h1>GameSite</h1>
+                    <!--<p><strong>Usage Instructions:</strong> Make sure to include the <code>scrolling-nav.js</code>, <code>jquery.easing.min.js</code>, and <code>scrolling-nav.css</code> files. To make a link smooth scroll to another section on the page, give the link the <code>.page-scroll</code> class and set the link target to a corresponding ID on the page.</p>-->
+                    <!--<a class="btn btn-default page-scroll" href="#about">Click Me to Scroll Down!</a>-->
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="about-section">
+    <!--not sure why but cannot change class name (even with change the name in the css file) so I'm just leaving it for now-->
+
+    <section id="pongbg" class="about-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>About Section</h1>
-					<p>We're Sick</p>
+                    <h1>Pong</h1>
+                    <div class="col-lg-4">
+                    	<p></p>
+                    	<br>
+                    	<br>
+						<p>We're Sick test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data </p>
+					</div>
+					<div class="col-lg-8">
+						<p></p>
+						<br>
+						<br>
+						<img src="{% static 'homepage/imgs/pong.png' %}" height="322" width="481" align="middle"/>
+					</div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services" class="services-section">
+    <section id="snakebg" class="services-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1>Services Section</h1>
+                    <h1>Snake</h1>
+                    <div class="col-lg-4">
+                    	<p></p>
+                    	<br>
+                    	<br>
+						<p>Test text test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data test data </p>
+					</div>
+					<div class="col-lg-8">
+						<p></p>
+						<br>
+						<br>
+						<img src="{% static 'homepage/imgs/snek.png' %}" height="322" width="322" align="right"/>
+					</div>
                 </div>
             </div>
         </div>
