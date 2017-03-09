@@ -1,6 +1,6 @@
 # GameSite
 
-A classic videogame website built using Django, Bootstrap and JSON.
+A classic videogame website built using Django and Bootstrap.
 
 ## Website Link:
 
