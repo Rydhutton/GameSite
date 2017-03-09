@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+
     {% load staticfiles %}
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,12 +15,10 @@
     <title>GameSite</title>
 
     <link href="{% static 'homepage/css/bootstrap.css' %}" rel="stylesheet">
-
-    <link href="{% static 'homepage/css/scrolling-nav.css' %}" rel="stylesheet">
-
     <link href="{% static 'homepage/css/gamesite.css' %}" rel="stylesheet">
 
 </head>
+
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
@@ -39,10 +40,10 @@
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#pongbg">Pong</a>
+                        <a class="page-scroll" href="#pong">Pong</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#snakebg">Snake</a>
+                        <a class="page-scroll" href="#snake">Snake</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -52,7 +53,8 @@
         </div>
     </nav>
 
-    <section id="gamesitebg" class="intro-section">
+
+    <section id="gamesite" class="gamesite-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -64,9 +66,8 @@
         </div>
     </section>
 
-    <!--not sure why but cannot change class name (even with change the name in the css file) so I'm just leaving it for now-->
 
-    <section id="pongbg" class="about-section">
+    <section id="pong" class="pong-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -88,7 +89,8 @@
         </div>
     </section>
 
-    <section id="snakebg" class="services-section">
+
+    <section id="snake" class="snake-section">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -110,6 +112,7 @@
         </div>
     </section>
 
+
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
@@ -120,13 +123,12 @@
         </div>
     </section>
 
+
     <script src="{% static 'homepage/js/jquery.js' %}"></script>
-
     <script src="{% static 'homepage/js/bootstrap.min.js' %}"></script>
-
     <script src="{% static 'homepage/js/jquery.easing.min.js' %}"></script>
     <script src="{% static 'homepage/js/scrolling-nav.js' %}"></script>
 
-</body>
 
+</body>
 </html>

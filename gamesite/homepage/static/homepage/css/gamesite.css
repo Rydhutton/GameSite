@@ -31,30 +31,46 @@ html {
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
 of those sections to manage the look and feel of the site. */
 
-.pong-container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    background: #fff;
+.gamesite-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
 }
 
-#pongbg {
+.pong-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.snake-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+    background: #eee;
+}
+
+#pong {
     color: white;
     background-color: #000080;
 }
 
-#snakebg {
+#snake {
     color: white;
     background-color: grey;
 }
 
-#gamesitebg {
+#gamesite {
     color: white;
     background-image: url("../imgs/packmanbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
