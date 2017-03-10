@@ -37,10 +37,22 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
+#gamesite {
+    color: white;
+    background-image: url("../imgs/packmanbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .pong-section {
     height: 100%;
     padding-top: 150px;
     text-align: center;
+}
+
+#pong {
+    color: white;
+    background-color: #000080;
 }
 
 .snake-section {
@@ -49,28 +61,55 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
-.contact-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-    background: #eee;
-}
-
-#pong {
-    color: white;
-    background-color: #000080;
-}
-
 #snake {
     color: white;
     background-color: grey;
 }
 
-#gamesite {
-    color: white;
-    background-image: url("../imgs/packmanbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+.chess-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
 }
+
+#chess {
+    color: black;
+    background-color: white;
+}
+
+.pacman-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#pacman {
+    color: white;
+    background-color: grey;
+}
+
+.contact-section {
+    height: 100%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+#contact {
+    color: black;
+    background-color: white;
+}
+
+footer .list-inline {
+    margin: 0;
+    padding: 0;
+}
+
+footer .copyright {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
 
 

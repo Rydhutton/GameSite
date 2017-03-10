@@ -4,6 +4,8 @@
 
 <head>
 
+    <!--we should really break up this file using jinja so that we wont have to edit more files later on-->
+
     {% load staticfiles %}
 
     <meta charset="utf-8">
@@ -35,7 +37,7 @@
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-left">
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
@@ -46,7 +48,22 @@
                         <a class="page-scroll" href="#snake">Snake</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#chess">Chess</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#pacman">Pacman</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/login/">Login</a>
+                    </li>
+                    <li>
+                        <a href="/admin">Admin</a>
                     </li>
                 </ul>
             </div>
@@ -113,6 +130,28 @@
     </section>
 
 
+    <section id="chess" class="chess-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Chess</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="pacman" class="pacman-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>Pacman</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
     <section id="contact" class="contact-section">
         <div class="container">
             <div class="row">
@@ -122,6 +161,17 @@
             </div>
         </div>
     </section>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p class="copyright text-muted">Copyright &copy; GameSite 2017</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="{% static 'homepage/js/jquery.js' %}"></script>
