@@ -44,6 +44,11 @@ of those sections to manage the look and feel of the site. */
     background-size: cover;
 }
 
+.GameTitle {
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+
 .pong-section {
     height: 100%;
     padding-top: 150px;
