@@ -4,13 +4,12 @@ from __future__ import unicode_literals
 from django.shortcuts import render, redirect
 from django.contrib.auth import authenticate, login
 from django.views.generic import View #Possibily unneccesary
-from .forms import UserForm
 
 
 def index(request):
 	return render(request, 'homepage/index.html')
 
-class UserFormView(View):
+'''class UserFormView(View):
 	form_class = UserForm
 	template_name = 'homepage/registration_form.html'
 
@@ -40,4 +39,5 @@ class UserFormView(View):
 					login(request, user)
 					return redirect('homepage:index')
 					
-		return render(request, self.template_name, {'form': form})
+		return render(request, self.template_name, {'form': form})'''
+
