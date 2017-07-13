@@ -16,7 +16,7 @@ class Profile(models.Model):
 	pacman_score = models.IntegerField(default=0)
 
 	def __str__(self):
-		return "username: " + str(self.user.username) + "| snake score: " + str(self.snake_score) + "| pong score: " + str(self.pong_score) + "| pacman score: " + str(self.pacman_score)
+		return "username: " + str(self.user.username) + " | snake score: " + str(self.snake_score) + " | pong score: " + str(self.pong_score) + " | pacman score: " + str(self.pacman_score)
 
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):

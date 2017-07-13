@@ -28,7 +28,7 @@ html {
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children
 of those sections to manage the look and feel of the site. */
 
 .gamesite-section {
@@ -39,7 +39,7 @@ of those sections to manage the look and feel of the site. */
 
 #gamesite {
     color: white;
-    background-image: url("../imgs/gamesitebg.jpg");
+    background-image: url("../imgs/spaceinvadersbg.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -57,10 +57,9 @@ of those sections to manage the look and feel of the site. */
 }
 
 #pong {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     background-color: black;
-    background-image: url("../imgs/pongbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,34 +71,11 @@ of those sections to manage the look and feel of the site. */
 }
 
 #snake {
-    color: white;
-    background-color: grey;
-}
-
-.chess-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-}
-
-#chess {
-    color: black;
-    background-color: white;
-}
-
-.pacman-section {
-    height: 100%;
-    padding-top: 150px;
-    text-align: center;
-}
-
-#pacman {
-    font-size: 18px;
-    color: white;
-    background-color: black;
-    background-image: url("../imgs/pacmanbg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  font-size: 16px;
+  color: white;
+  background-color: gray;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .contact-section {
@@ -123,7 +99,3 @@ footer .copyright {
     text-align: center;
     margin-bottom: 0;
 }
-
-
-
-
