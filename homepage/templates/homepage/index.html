@@ -1,7 +1,12 @@
     {% extends "homepage/base.html" %}
 
-    {% block content %}
     {% load staticfiles %}
+
+    {% block homebutton %}
+    <a class="navbar-brand page-scroll" href="#page-top">GameSite</a>
+    {% endblock homebutton %}
+
+    {% block content %}
 
     <section id="gamesite" class="gamesite-section">
         <div class="container">
